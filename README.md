@@ -170,11 +170,11 @@ cd UniFormerV2
 - PyTorchVideo: `pip install pytorchvideo`
 - Decord: `pip install decord`
 
-#### Causal Action Recognition
+### Causal Action Recognition
 
 Code coming soon.
 
-## Annotations
+# Annotations
 We provide annotation files for the OccludeNet dataset. The annotation information is saved in a csv file. The content includes the action class, file name, occluder type, occluder file name, occluder pixel ratio, occluder size ratio, occlusion duration, video duration, fps, clip generation time of each video sample. Welcome to check the "Annotations" dir. 
 
 # Acknowledgemnet
