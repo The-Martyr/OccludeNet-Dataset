@@ -1,4 +1,4 @@
-# OccludeNet: A Causal Journey into Mixed-View Actor-Centric Video Action Recognition amidst Occlusions
+# OccludeNet: A Causal Journey into Mixed-View Actor-Centric Video Action Recognition under Occlusions
 Official repository for OccludeNet dataset and Causal Action Recognition.
 
 <div style='display:flex; gap: 0.25rem; '>
