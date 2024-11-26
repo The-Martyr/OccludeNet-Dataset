@@ -177,6 +177,20 @@ Code coming soon.
 # Annotations
 We provide annotation files for the OccludeNet dataset. The annotation information is saved in a csv file. The content includes the action class, file name, occluder type, occluder file name, occluder pixel ratio, occluder size ratio, occlusion duration, video duration, fps, clip generation time of each video sample. Welcome to check the "Annotations" dir. 
 
+# Citation
+Welcome to star our repo and cite our work:
+```
+@misc{zhou2024occludenetcausaljourneymixedview,
+      title={OccludeNet: A Causal Journey into Mixed-View Actor-Centric Video Action Recognition under Occlusions}, 
+      author={Guanyu Zhou and Wenxuan Liu and Wenxin Huang and Xuemei Jia and Xian Zhong and Chia-Wen Lin},
+      year={2024},
+      eprint={2411.15729},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.15729}, 
+}
+```
+
 # Acknowledgemnet
 [UniFormerV2](https://github.com/OpenGVLab/UniFormerV2): Spatiotemporal Learning by Arming Image ViTs with Video UniFormer
 
