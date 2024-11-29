@@ -180,14 +180,11 @@ We provide annotation files for the OccludeNet dataset. The annotation informati
 # Citation
 Welcome to star our repo and cite our work:
 ```
-@misc{zhou2024occludenetcausaljourneymixedview,
-      title={OccludeNet: A Causal Journey into Mixed-View Actor-Centric Video Action Recognition under Occlusions}, 
-      author={Guanyu Zhou and Wenxuan Liu and Wenxin Huang and Xuemei Jia and Xian Zhong and Chia-Wen Lin},
-      year={2024},
-      eprint={2411.15729},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2411.15729}, 
+@article{zhou2024occludenet,
+  title={OccludeNet: A Causal Journey into Mixed-View Actor-Centric Video Action Recognition under Occlusions},
+  author={Zhou, Guanyu and Liu, Wenxuan and Huang, Wenxin and Jia, Xuemei and Zhong, Xian and Lin, Chia-Wen},
+  journal={arXiv preprint arXiv:2411.15729},
+  year={2024}
 }
 ```
 
