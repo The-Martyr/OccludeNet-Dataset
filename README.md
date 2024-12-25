@@ -6,16 +6,16 @@ Official repository for OccludeNet dataset and Causal Action Recognition.
 <a href='LICENCE'><img src='https://img.shields.io/badge/License-Apache 2.0-g.svg'></a>
 </div>
 
+# 🗓 To-Do List
+- [ ] Full Code Release
+- [ ] Full Dataset Release
+- [x] Preprint version of OccludeNet was released: https://arxiv.org/abs/2411.15729. Welcome to check it out!
+
 # Introduction
 The lack of occlusion data in commonly used action recognition video datasets limits model robustness and impedes sustained performance improvements. We construct OccludeNet, a large-scale occluded video dataset that includes both real-world and synthetic occlusion scene videos under various natural environments. OccludeNet features dynamic tracking occlusion, static scene occlusion, and multi-view interactive occlusion, addressing existing gaps in data. Our analysis reveals that occlusion impacts action classes differently, with actions involving low scene relevance and partial body visibility experiencing greater accuracy degradation. To overcome the limitations of current occlusion-focused approaches, we propose a structural causal model for occluded scenes and introduce the Causal Action Recognition (CAR) framework, which employs backdoor adjustment and counterfactual reasoning. This framework enhances key actor information, improving model robustness to occlusion. We anticipate that the challenges posed by OccludeNet will stimulate further exploration of causal relations in occlusion scenarios and encourage a reevaluation of class correlations, ultimately promoting sustainable performance improvements.
 
 # Overview
 ![image](images/overview.png)
-
-# Update
-
-
-* 24.11 The preprint version of OccludeNet was released: https://arxiv.org/abs/2411.15729. Welcome to check it out!
 
 # Dataset Structure
 
