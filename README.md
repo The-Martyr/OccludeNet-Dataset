@@ -47,53 +47,25 @@ The lack of occlusion data in commonly used action recognition video datasets li
 
 * There are no more folders under the classification folders such as abseiling, handbag, person, etc. are in the same folder
    ```
-
 ### OccludeNet-D
 
-<details>
-<summary>train</summary>
-
-<details>
-<summary>25%</summary>
-
-- abseiling
-- handbag
-- person
-- ...
-- air drumming
-- ...
-
-</details>
-
-<details>
-<summary>50%</summary>
-
-- ...
-
-</details>
-
-<details>
-<summary>75%</summary>
-
-- ...
-
-</details>
-
-</details>
-
-<details>
-<summary>val</summary>
-
-- ...
-
-</details>
-
-<details>
-<summary>test</summary>
-
-- ...
-
-</details>
+<div style="overflow:auto; width:100%; height:200px; border:1px solid #ccc;">
+  <pre>
+├── OccludeNet-D
+│   ├── train
+│   │   ├── 25%
+│   │   │   ├──abseiling
+│   │   │   │   ├── handbag
+│   │   │   │   ├── person
+│   │   │   │   ├── ...
+│   │   │   ├── air drumming
+│   │   │   ├── ...
+│   │   ├── 50%
+│   │   ├── 75%
+│   ├── val
+│   ├── test
+  </pre>
+</div>
 
 
 ### OccludeNet-S
