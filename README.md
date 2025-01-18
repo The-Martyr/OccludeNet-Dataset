@@ -48,90 +48,52 @@ The lack of occlusion data in commonly used action recognition video datasets li
 * There are no more folders under the classification folders such as abseiling, handbag, person, etc. are in the same folder
    ```
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-/* 样式定义 */
-.collapsible {
-  background-color: #f9f9f9;
-  color: #444;
-  cursor: pointer;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+### OccludeNet-D
 
-.active, .collapsible:hover {
-  background-color: #ccc;
-}
+<details>
+<summary>train</summary>
 
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-</style>
-</head>
-<body>
+<details>
+<summary>25%</summary>
 
-<h2>OccludeNet-D</h2>
+- abseiling
+- handbag
+- person
+- ...
+- air drumming
+- ...
 
-<button class="collapsible">train</button>
-<div class="content">
-  <button class="collapsible">25%</button>
-  <div class="content">
-    <p>abseiling</p>
-    <p>handbag</p>
-    <p>person</p>
-    <p>...</p>
-    <p>air drumming</p>
-    <p>...</p>
-  </div>
-  <button class="collapsible">50%</button>
-  <div class="content">
-    <p>...</p>
-  </div>
-  <button class="collapsible">75%</button>
-  <div class="content">
-    <p>...</p>
-  </div>
-</div>
+</details>
 
-<button class="collapsible">val</button>
-<div class="content">
-  <p>...</p>
-</div>
+<details>
+<summary>50%</summary>
 
-<button class="collapsible">test</button>
-<div class="content">
-  <p>...</p>
-</div>
+- ...
 
-<script>
-/* JavaScript代码 */
-var coll = document.getElementsByClassName("collapsible");
-var i;
+</details>
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+<details>
+<summary>75%</summary>
 
-</body>
-</html>
+- ...
+
+</details>
+
+</details>
+
+<details>
+<summary>val</summary>
+
+- ...
+
+</details>
+
+<details>
+<summary>test</summary>
+
+- ...
+
+</details>
 
 
 ### OccludeNet-S
